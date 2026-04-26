@@ -1,0 +1,27 @@
+{
+  "chunk_id": "smad_table17-5_bridge",
+  "source": "SME-SMAD Table 17-5 (bridging description)",
+  "domain": "optical_performance",
+  "subdomain": "diffraction_limited_resolution",
+  "content_type": "calculation_setup",
+  "complexity": "introductory",
+  "keywords": [
+    "diffraction limit",
+    "ground sample distance",
+    "GSD",
+    "spatial resolution",
+    "aperture",
+    "wavelength",
+    "orbital altitude",
+    "visible",
+    "infrared",
+    "passive microwave",
+    "LEO",
+    "GEO"
+  ],
+  "leads_to_calculation": true,
+  "calculation_refs": ["Table_17-5_Diffraction_Limited_Resolution.xls"],
+  "related_tools": ["ZEMAX", "Code_V"],
+  "related_chunks": ["smad_table17-9_bridge"],
+  "authored_description": "Table 17-5 calculates the diffraction-limited ground resolution (GSD) of a space imaging system using the relationship GSD = (h x lambda) / D, where h is orbital altitude in km, lambda is the operating wavelength in meters, and D is the aperture diameter in meters. The table provides pre-configured scenarios for three spectral bands — visible (400-750nm), infrared (700nm-300um), and passive microwave (1cm-1m) — at representative orbital altitudes including LEO (~800km), GEO (35,786km), and low-altitude (~15km) orbits. Use this calculation early in concept design to understand the fundamental resolution limit imposed by physics before considering detector, atmosphere, or pointing effects. This is a theoretical ceiling — real system GSD will be worse. For a complete sensor performance estimate including detector pixel size and integration time effects, proceed to Table 17-9."
+}
